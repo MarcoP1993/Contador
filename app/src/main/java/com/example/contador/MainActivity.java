@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void incrementarContador(View view) {
-        contador++;
+        contador++; //esto es un comentario
         if (contador == 100){
             texto_numero.setTextSize(150);
         }
